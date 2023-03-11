@@ -13,9 +13,7 @@ class MainController extends Controller
     public function index() {
         $movies = Movie::all();
 
-dd($movies);
-
-        return view('welcome');
+        return view('welcome', compact('movies'));
     }
     
 }

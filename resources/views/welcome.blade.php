@@ -9,7 +9,18 @@
     </head>
     <body>
         <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> 
-        <h1>Test</h1>
+        <main>
+            <div class=row>
+                <div class="col">
+                    @foreach ($movies as $movie)
+                        <ul>
+                            <li> {{$movie->id}} </li>
+                            <li> {{$movie->title}} </li>
+                        </ul>
+                    @endforeach
+                </div>
+            </div>
+        </main>
 
 
     </body>
