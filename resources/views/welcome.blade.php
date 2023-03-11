@@ -29,7 +29,12 @@
                     @endforeach
                 </div>
             </div>
-            <button onclick="document.body.classList.toggle('black')">Cambia sfondo</button>
+            <div class="row">
+                <div class="col">
+                    <button onclick="document.body.classList.toggle('black')">Cambia sfondo</button>
+                </div>
+            </div>
+           
         </main>
     </body>
 </html>
