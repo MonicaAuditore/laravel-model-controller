@@ -8,6 +8,7 @@
         @vite('resources/js/app.js')
     </head>
     <body>
+        
         {{-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt="">  --}}
         <main>
             <div class="container">
@@ -28,6 +29,7 @@
                     @endforeach
                 </div>
             </div>
+            <button onclick="document.body.classList.toggle('black')">Cambia sfondo</button>
         </main>
     </body>
 </html>
