@@ -16,12 +16,12 @@
                     <div class="col">
                         <div class="card">
                             <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column">
                                 <h5 class="card-title text-center">{{$movie->title}}</h5>
                                 <p class="card-text text-center">Titolo originale: {{$movie->original_title}}</p>
                                 <p class="card-text mb-0">Nazionalità: {{$movie->nationality}}</p>
                                 <p class="card-text mb-0">Data: {{$movie->date}}</p>
-                                <span class="card-text">Voto:</span><span><strong> {{$movie->vote}}</strong></span>
+                                <span class="card-text">Voto:<strong> {{$movie->vote}}</strong></span>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,5 @@
                 </div>
             </div>
         </main>
-
-
     </body>
 </html>
